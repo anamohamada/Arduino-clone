@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title "Arduino"
 Date "2021-10-07"
 Rev ""
@@ -13,4 +13,98 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L Device:Battery BT?
+U 1 1 615F0300
+P 7050 3050
+F 0 "BT?" H 7158 3096 50  0000 L CNN
+F 1 "Battery" H 7158 3005 50  0000 L CNN
+F 2 "" V 7050 3110 50  0001 C CNN
+F 3 "~" V 7050 3110 50  0001 C CNN
+	1    7050 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 615F14AB
+P 5450 1750
+F 0 "C?" H 5565 1796 50  0000 L CNN
+F 1 "C" H 5565 1705 50  0000 L CNN
+F 2 "" H 5488 1600 50  0001 C CNN
+F 3 "~" H 5450 1750 50  0001 C CNN
+	1    5450 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 615F1778
+P 5450 2400
+F 0 "C?" H 5565 2446 50  0000 L CNN
+F 1 "C" H 5565 2355 50  0000 L CNN
+F 2 "" H 5488 2250 50  0001 C CNN
+F 3 "~" H 5450 2400 50  0001 C CNN
+	1    5450 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 615F1B97
+P 6350 1800
+F 0 "C?" H 6468 1846 50  0000 L CNN
+F 1 "CP" H 6468 1755 50  0000 L CNN
+F 2 "" H 6388 1650 50  0001 C CNN
+F 3 "~" H 6350 1800 50  0001 C CNN
+	1    6350 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 615F28FB
+P 7600 1750
+F 0 "D?" H 7593 1967 50  0000 C CNN
+F 1 "LED" H 7593 1876 50  0000 C CNN
+F 2 "" H 7600 1750 50  0001 C CNN
+F 3 "~" H 7600 1750 50  0001 C CNN
+	1    7600 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 615F2E86
+P 8250 1950
+F 0 "R?" H 8320 1996 50  0000 L CNN
+F 1 "R" H 8320 1905 50  0000 L CNN
+F 2 "" V 8180 1950 50  0001 C CNN
+F 3 "~" H 8250 1950 50  0001 C CNN
+	1    8250 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 615F3234
+P 8250 2400
+F 0 "R?" H 8320 2446 50  0000 L CNN
+F 1 "R" H 8320 2355 50  0000 L CNN
+F 2 "" V 8180 2400 50  0001 C CNN
+F 3 "~" H 8250 2400 50  0001 C CNN
+	1    8250 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_EEPROM:24LC1025 U?
+U 1 1 615F39A8
+P 9550 1950
+F 0 "U?" H 9550 2431 50  0000 C CNN
+F 1 "24LC1025" H 9550 2340 50  0000 C CNN
+F 2 "" H 9550 1950 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21941B.pdf" H 9550 1950 50  0001 C CNN
+	1    9550 1950
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 8250 3000 2950 3550
+U 615F48EA
+F0 "Connectors" 50
+F1 "connectors.sch" 50
+$EndSheet
 $EndSCHEMATC
